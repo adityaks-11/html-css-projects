@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /* to make 1rem = 10px from 1rem = 16px*/
+}
+
+html,body{
+    font-family: "Inter",sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 1.4rem;
+}
+ ul{
+    list-style-type: none;
+ }
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 45px;
+    z-index: 50;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li{
+    font-size: 1.8rem;
+    transition: 0.2s ease-in-out;
+    border-bottom: transparent
+}
+
+nav ul li:hover{
+    border-bottom: #ffff10 2px solid;
+    transition: 0.2s ease-in-out;
+}
+
+nav i{
+    font-size: 2.5rem;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero_content h1{
+    font-size: 6rem;
+    line-height: 1.2;
+}
+
+.hero_content h4{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.hero_image img{
+    border-radius: 5rem;
+}
+
+.h-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.card_content{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card_content h2{
+    font-size: 30px;
+}
+
+.status{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+.read-btn{
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.multiple_h_cards{
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 30px;
+}
+
+.h_cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    p{
+        font-weight: 400;
+    }
+
+    transition: 0.2s ease-in-out;
+    
+}
+
+.h_cards:hover{
+    transform: scale(1.02);
+    transition: 0.2s ease-in-out;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.156);
+}
+
+.seemore{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10px;
+    width: 120px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: white;
+    margin-top: -10px;
+    border: none;
+
+    i{
+        margin-left: 2px;
+    }
+
+}
+
+.right_button{
+    text-align: right;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 30px auto;
+    margin-bottom: 0;
+    padding: 1rem;
+}
+
+.footer_socials ul{
+    display: flex;
+    gap: 20px;
+}
+
+.footer_socials ul i{
+    font-size: 20px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+
+    h1{
+        font-size: 40px;
+    }
+}
+
+.details{
+    display: flex;
+    gap: 40px;
+}
+
+.article{
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+article p i{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+}
+
